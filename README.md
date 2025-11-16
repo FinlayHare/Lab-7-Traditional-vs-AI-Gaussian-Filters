@@ -1,5 +1,7 @@
 # Lab-7-Traditional-vs-AI-Gaussian-Filters
 
+This MATLAB script demonstrates an approach to image denoising, comparing traditional and AI-based noise reduction techniques for a grayscale image with Gaussian noise.
+
 Noise Modeling	Gaussian noise was simulated using MATLAB's imnoise() function, with a specific standard deviation (σ = 0.04). This allows controlled introduction of random variations to the image.
 
 Denoising Techniques	Two primary denoising approaches were explored: - Traditional Method: Wiener filter (adaptive local noise reduction)- AI Method: Pre-trained DnCNN deep learning network.
